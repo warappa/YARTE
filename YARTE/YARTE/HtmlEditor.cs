@@ -333,7 +333,7 @@ namespace YARTE.UI
             {
                 e.Cancel = true;
 
-                Process.Start(e.Url.ToString());
+                _ = Process.Start(e.Url.ToString());
             }
         }
 
